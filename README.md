@@ -32,3 +32,4 @@ MIT © [vuslatsena](https://github.com/vuslatsena)
 ## Result
   
   ![NPM](./example/public/Untitled.gif)
+  (https://www.npmjs.com/package/vuslatui)
