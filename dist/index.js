@@ -17,7 +17,7 @@ function _extends() {
   return _extends.apply(this, arguments);
 }
 
-var styles = {"test":"_3ybTi","primary":"_3ljpl","secondary":"_2Lfm6","dashed":"_27xYC","link":"_71S8l","download":"_2j7qE","loading":"_MATvY","spin":"_1sp4O"};
+var styles = {"test":"_styles-module__test__3ybTi","primary":"_styles-module__primary__3ljpl","secondary":"_styles-module__secondary__2Lfm6","dashed":"_styles-module__dashed__27xYC","link":"_styles-module__link__71S8l","download":"_styles-module__download__2j7qE","loading":"_styles-module__loading__MATvY","spin":"_styles-module__spin__1sp4O"};
 
 var Button = function Button(props) {
   return /*#__PURE__*/React.createElement("div", {

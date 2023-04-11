@@ -1,6 +1,6 @@
 /* add css module styles here (optional) */
 
-._3ybTi {
+._styles-module__test__3ybTi {
   margin: 2em;
   padding: 0.5em;
   border: 2px solid #000;
@@ -9,7 +9,7 @@
 }
 
 /* Primary Button */
-._3ljpl {
+._styles-module__primary__3ljpl {
   background-color: #4eb980;
   color: #ffffff;
   border: none;
@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 
-._3ljpl:hover {
+._styles-module__primary__3ljpl:hover {
   background-color: #65a784;
   box-shadow: 0 0 10px #79c99e;
   color: #fff;
@@ -27,7 +27,7 @@
 }
 
 /* Secondary Button */
-._2Lfm6 {
+._styles-module__secondary__2Lfm6 {
   background-color: #e9940b;
   color: #ffffff;
   border: none;
@@ -37,13 +37,13 @@
   cursor: pointer;
 }
 
-._2Lfm6:hover {
+._styles-module__secondary__2Lfm6:hover {
   background-color: #e9940b;
   box-shadow: 0 0 10px #fb923c;
 }
 
 /* Dashed Button */
-._27xYC {
+._styles-module__dashed__27xYC {
   background-color: transparent;
   color: #523249;
   border: 2px dashed #4a4a4a;
@@ -53,12 +53,12 @@
   cursor: pointer;
 }
 
-._27xYC:hover {
+._styles-module__dashed__27xYC:hover {
   box-shadow: 0 0 10px #673d5b;
 }
 
 /* Link Button */
-._71S8l {
+._styles-module__link__71S8l {
   background-color: transparent;
   color: #03437a;
   border: none;
@@ -69,12 +69,12 @@
   text-decoration: underline;
 }
 
-._71S8l:hover {
+._styles-module__link__71S8l:hover {
   color: #0096c7;
 }
 
 /* Download Button */
-._2j7qE {
+._styles-module__download__2j7qE {
   background-color: #3a673c;
   color: #ffffff;
   border: none;
@@ -84,11 +84,11 @@
   cursor: pointer;
 }
 
-._2j7qE:hover {
+._styles-module__download__2j7qE:hover {
   box-shadow:0 0 10px #388e3c;
 }
 
-._MATvY {
+._styles-module__loading__MATvY {
   position: relative;
   font-size: 16px;
   padding: 10px 32px;
@@ -99,7 +99,7 @@
   cursor: pointer;
 }
 
-._MATvY:before {
+._styles-module__loading__MATvY:before {
   content: "";
   display: block;
   position: absolute;
@@ -111,12 +111,12 @@
   border-radius: 50%;
   border: 2px solid #fff;
   border-top-color: #3498db;
-  animation: _1sp4O 1s ease-in-out infinite;
+  animation: _styles-module__spin__1sp4O 1s ease-in-out infinite;
 }
-._MATvY:hover{
+._styles-module__loading__MATvY:hover{
   box-shadow:0 0 10px #4a4a4a;
 }
-@keyframes _1sp4O {
+@keyframes _styles-module__spin__1sp4O {
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
