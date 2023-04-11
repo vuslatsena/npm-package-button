@@ -1,0 +1,123 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Primary Button */
+.primary {
+  background-color: #4eb980;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary:hover {
+  background-color: #65a784;
+  box-shadow: 0 0 10px #79c99e;
+  color: #fff;
+  border: none;
+}
+
+/* Secondary Button */
+.secondary {
+  background-color: #e9940b;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.secondary:hover {
+  background-color: #e9940b;
+  box-shadow: 0 0 10px #fb923c;
+}
+
+/* Dashed Button */
+.dashed {
+  background-color: transparent;
+  color: #523249;
+  border: 2px dashed #4a4a4a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dashed:hover {
+  box-shadow: 0 0 10px #673d5b;
+}
+
+/* Link Button */
+.link {
+  background-color: transparent;
+  color: #03437a;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #0096c7;
+}
+
+/* Download Button */
+.download {
+  background-color: #3a673c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.download:hover {
+  box-shadow:0 0 10px #388e3c;
+}
+
+.loading {
+  position: relative;
+  font-size: 16px;
+  padding: 10px 32px;
+  padding-right: 8px;
+  border-radius: 5px;
+  background-color: #9c4e1a;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.loading:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right:  calc(100% - 40px);
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  border-top-color: #3498db;
+  animation: spin 1s ease-in-out infinite;
+}
+.loading:hover{
+  box-shadow:0 0 10px #4a4a4a;
+}
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
