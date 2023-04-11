@@ -1,5 +1,5 @@
 {
-  "name": "vuslatsenaemreui",
+  "name": "vuslatui",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "vuslatsena",
@@ -49,8 +49,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "vuslatsenaemreui": "^1.0.0"
-  }
+  ]
 }

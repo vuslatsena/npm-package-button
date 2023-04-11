@@ -15,12 +15,12 @@ npm install --save vuslatui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'vuslatui'
+import Button from 'vuslatui'
 import 'vuslatui/dist/index.css'
 
-class Example extends Component {
+class Button extends Component {
   render() {
-    return <MyComponent />
+    return <Button />
   }
 }
 ```
@@ -28,3 +28,7 @@ class Example extends Component {
 ## License
 
 MIT © [vuslatsena](https://github.com/vuslatsena)
+
+## Result
+  
+  ![NPM](./example/public/Untitled.gif)
